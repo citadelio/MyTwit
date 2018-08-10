@@ -4,7 +4,7 @@
   "description": "A twitter client for keeping up with friends",
   "main": "app.js",
   "scripts": {
-    "server": "node app.js",
+    "server": "npm install && node app.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",    
     "start": "npm run dev"
