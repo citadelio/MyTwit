@@ -1,0 +1,40 @@
+.sidenav span.badge{
+    position: relative;
+    right: 20px;
+    margin-top: calc(24px - 11px);
+    min-width: 1.7rem;
+}
+.profile-sidenav li{
+    box-shadow: 0px 2px 5px #ccc;
+}
+.profile-sidenav li .title{
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+}
+.profile-sidenav li i{
+    position: relative;
+    left: 10px;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+.profile-sidenav li a.active i, .profile-sidenav li a.active span.title{
+    color: #5e35b1 !important;
+    transition: .3s;
+}
+.profile-sidenav li a, .profile-sidenav li i{
+    margin: 0!important;
+    padding: 0!important;
+}
+.profile-sidenav li.avatar img{
+    width: 20%;
+    left: 10px;
+    top: 10px;
+    position: relative;
+}
+.profile-sidenav li.avatar .user{
+    font-size: 18px;
+    left: 20px;
+    position: relative;
+    font-weight: 600;
+}

@@ -1,0 +1,31 @@
+
+
+.sidenav{
+    width:300px;
+}
+.navroot{
+position: fixed;
+width: 100%;
+z-index: 999;
+}
+nav .brand-logo{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 992px){
+    nav .brand-logo{
+        left: 30%;
+        -webkit-transform: translateX(-30%);
+        transform: translateX(-30%);   
+    }
+    .sidenav li>a{
+        font-size: 12px;
+    } 
+}
+@media only screen and (min-width: 993px){
+    nav{
+        height: unset;  
+    } 
+    .navroot{
+        position: relative;
+    }
+}

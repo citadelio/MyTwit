@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hiTitle{
+  color: #5e35b1 ;
+}
+.NUD{
+  padding: 20px;
+  background-color: #333;
+  margin-top: 20px;
+}
+.innerNUD{
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.innerNUD p {
+  color: #fff;
+}

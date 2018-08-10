@@ -1,0 +1,46 @@
+.card.horizontal{
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+}
+.card-count{
+    font-size: 2.2rem;
+    padding-right: 7px;
+}
+.card-stacked{
+    border-left: 1px solid #ccc;
+}
+.card .card-content{
+    padding: 15px;
+}
+#followers-cont .card.horizontal .card-image{
+    max-width: 30%;
+}
+#followers-cont .card.horizontal{
+    padding: 0;
+}
+#followers-cont .card-content ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 0;
+}
+#Thandle{
+    display: inline-block;
+    margin: 0;
+}
+#Tdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Tbadge{
+    border-radius: 20px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.card-content ul li b{
+    color: #5e35b1;
+}
+.card-content h5{
+    font-size: 1.5rem;
+}

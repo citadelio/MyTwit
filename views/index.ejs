@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Hello World</h1>
+        <% if(users) { %>
+            <% users.forEach( user => { %>
+                <%= user.screen_name %>
+                <a href="/profile/<%= id %>/unfollow/<%= user.id %>"> unfollow</a>
+                <br>
+
+          <%   }); %>
+        <% } %>
+    </body>
+</html>

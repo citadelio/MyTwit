@@ -1,0 +1,27 @@
+.card.horizontal{
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+}
+.card-count{
+    font-size: 2.2rem;
+    padding-right: 7px;
+}
+.card-stacked{
+    border-left: 1px solid #ccc;
+}
+.card .card-content{
+    padding: 15px;
+}
+.friendCard .card.horizontal .card-image{
+    max-width: 30%;
+}
+.friendCard .card.horizontal{
+    padding: 0;
+}
+.friendCard .card-content ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 0;
+}

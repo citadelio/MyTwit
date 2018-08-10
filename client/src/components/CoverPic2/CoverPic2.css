@@ -1,0 +1,81 @@
+
+#CoverPic{
+    position: relative;
+}
+#coverPhoto{
+    background: url('https://image.ibb.co/b1LPTd/img11.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+}
+#coverPhoto::after{
+    content: '';
+    display: block;
+    background-color: #000;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+.detailsSec{
+    position: relative;
+    bottom: 100px;
+}
+#profilePic{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#profilePic img{
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 100%;
+    height: 200px;
+}
+.logout{
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+     bottom: 30px;
+    width: 120px;
+    height: 50px;
+}
+.detailsSec span {
+    font-size: 32px;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+@media(max-width:767px){
+    .logout{
+        border-radius: 20px;
+        bottom: 40px;
+        position: absolute;
+        right: 0;
+        width: 80px;
+    height: 33px;
+        
+    }
+    #coverPhoto{
+        height: 150px;;
+    }
+    .detailsSec{
+        bottom: 50px;
+        position: relative;
+    }
+    #profilePic{
+        width: 100px;
+        height: 100px;
+    }
+    #profilePic img{
+        border-radius: 50%;
+        border: 3px solid #fff;
+        width: 100%;
+        height: 100px;
+    }
+    .detailsSec span {
+        font-size: 23px;
+        position: absolute;
+        bottom: 15px;
+    }
+}

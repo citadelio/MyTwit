@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <h1>follow user</h1>
+        <% if(users) { %>
+            <% users.forEach( user => { %>
+                <%= user.screen_name %>
+                <a href="/profile/<%= id %>/follow/<%= user.id %>"> follow</a>
+                <br>
+
+          <%   }); %>
+        <% } %>
+    </body>
+</html>

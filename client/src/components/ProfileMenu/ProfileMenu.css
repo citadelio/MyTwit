@@ -1,0 +1,35 @@
+#icon-nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+    text-align: center;
+}
+#icon-nav li a{
+    color:rgba(0,0,0,.75);
+   
+}
+#icon-nav li  i{
+    font-size: 1.8em !important;
+    transition: .3s;
+}
+#icon-nav li a.active  i{
+    font-size: 2.2em !important;
+    transition: .3s;
+}
+#icon-nav li a.active{
+    color:#5e35b1;
+}
+#icon-nav li span{
+    font-size: 11px;
+    display: block;
+}
+.nav-icons{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 2px solid #5e35b1;
+    border-bottom: 1px solid #5e35b1;
+    min-height: 80px;
+}

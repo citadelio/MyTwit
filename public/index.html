@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twit Padi</title>
+</head>
+<body>
+<h1>Hello</h1>
+<script>
+    if(users){
+    users.forEach(user => {
+        console.log(user);
+    });
+    }
+</script>
+
+<input type="date" class="d">
+<input type="time" class="e">
+<button id="btn">Clik</button>
+<div id="df"></div>
+<script>
+var btn = document.getElementById('btn');
+var ss = document.getElementById('df');
+btn.addEventListener('click', () =>{
+    var valls = document.querySelector('.d');
+    var valls2 = document.querySelector('.e');
+  
+    var rt = new Date(valls.value +" "+ valls2.value );
+    console.log(rt);
+    console.log((rt).getTime());
+    //ss.innerHTML = valls.value;
+})
+</script>
+</body>
+</html>
