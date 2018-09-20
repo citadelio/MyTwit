@@ -29,11 +29,11 @@ app.use(passport.session());
 //app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'ejs');
 // Static folder
-// app.use(express.static(path.join(__dirname, 'client','public','index.html')));
-app.use(express.static('client/build'));
-app.get('*', (req,res)=>{
-  res.sendFile(path.resolve(__dirname,'client','build','index.html'));
-})
+app.use(express.static(path.join(__dirname, 'client','public','index.html')));
+// app.use(express.static('client/build'));
+// app.get('*', (req,res)=>{
+//   res.sendFile(path.resolve(__dirname,'client','build','index.html'));
+// })
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
